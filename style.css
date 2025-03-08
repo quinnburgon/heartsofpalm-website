@@ -54,15 +54,19 @@ a.icon-link:hover{
 }
 #instagram {
     right: 172px;
+    z-index: 1;
 }
 #youtube {
     right: 132px;
+    z-index: 2;
 }
 #spotify {
     right: 92px;
+    z-index: 3;
 }
 #apple {
     right: 60px;
+    z-index: 4;
 }
 @media (max-width: 770px) {
     .top {
