@@ -253,6 +253,10 @@ a.icon-link:hover{
     width: 100%;
     height: auto;
     object-fit: contain;
+    transition: transform 0.3s ease;
+}
+.streaming img:hover {
+    transform: scale(0.97);
 }
 
 .contact{
