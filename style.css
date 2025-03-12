@@ -24,7 +24,7 @@ body {
     background-image: url(images/hermanminna.jpg);
     background-size: cover;
     background-position: center center;
-    height: 1100px;
+    height: 1200px;
     width: 100%;
 }
 #title {
@@ -56,76 +56,23 @@ a.icon-link:hover{
     opacity: 0.5;
 }
 #instagram {
-    right: 148.25px;
+    right: 192.25px;
     z-index: 1;
 }
 #youtube {
-    right: 101.25px;
+    right: 145.25px;
     z-index: 2;
 }
 #spotify {
-    right: 58px;
+    right: 102px;
     z-index: 3;
 }
 #apple {
-    right: 20px;
+    right: 64px;
     z-index: 4;
 }
-@media (max-width: 770px) {
-    .top {
-        background-image: url(images/hop1square.JPG);
-    }
-    .link-container{
-        flex-direction: column;
-        
-    }
-    .link-container img {
-        max-width: 100%;
-        height: auto;
-        /* object-fit: contain; */
-        margin-right: 0px;
-        margin-left: 0px;
-        margin-bottom: 20px;
-        
-    }
-    #welovehoplinks {
-        width: 100%;
-        text-align: center;
-    }
-}
-@media (max-width: 560px) {
-    a.icon-link{
-        top: 60px;
-    }
-    #instagram {
-        left: 20px;
-    }
-    #youtube {
-        left: 61px;
-    }
-    #spotify {
-        left: 108px;
-    }
-    #apple {
-        left: 151.25px;
-    }
-}
-@media (max-width: 376px){
-    a.icon-link {
-        top: 110px;
-    }
-}
-.albumtitle {
-    font-family: "Sen", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30px;
-    text-align: center;
-    color: white;
-    margin-top: 40px;
-    max-width: 90%;
-
+#bandcamp {
+    right: 20px;
 }
 
 .link-container{
@@ -137,6 +84,12 @@ a.icon-link:hover{
     box-sizing: border-box;
     margin: 0 auto;
 }
+.half {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .link-container img {
     width: 400px;
     height: auto;
@@ -147,7 +100,9 @@ a.icon-link:hover{
 }
 #welovehoplinks {
     width: auto;
+    margin: 0;
     border-collapse: collapse;
+    margin-top: 130px;
 }
 #welovehoplinks tr {
     border-bottom: 2px solid red;
@@ -171,6 +126,69 @@ a.icon-link:hover{
 }
 #welovehoplinks a:hover {
     color: black;
+}
+
+@media (max-width: 770px) {
+    .top {
+        background-image: url(images/hop1square.JPG);
+    }
+    .link-container{
+        flex-direction: column;
+        
+    }
+    .half{
+        width: 100%;
+    }
+    .link-container img {
+        max-width: 100%;
+        height: auto;
+        /* object-fit: contain; */
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        
+    }
+    #welovehoplinks {
+        margin-top: 0px;
+        text-align: center;
+    }
+}
+@media (max-width: 595px) {
+    a.icon-link{
+        top: 60px;
+    }
+    #instagram {
+        left: 20px;
+    }
+    #youtube {
+        left: 61px;
+    }
+    #spotify {
+        left: 108px;
+    }
+    #apple {
+        left: 151.25px;
+    }
+    #bandcamp {
+        left: 189.25px;
+    }
+}
+@media (max-width: 376px){
+    a.icon-link {
+        top: 110px;
+    }
+}
+.albumtitle {
+    font-family: "Sen", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+    max-width: 90%;
+
 }
 
 .shows {
