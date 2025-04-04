@@ -128,56 +128,7 @@ a.icon-link:hover{
     color: black;
 }
 
-@media (max-width: 770px) {
-    .top {
-        background-image: url(images/hop1square.JPG);
-    }
-    .link-container{
-        flex-direction: column;
-        
-    }
-    .half{
-        width: 100%;
-    }
-    .link-container img {
-        max-width: 100%;
-        height: auto;
-        /* object-fit: contain; */
-        margin-right: 0px;
-        margin-left: 0px;
-        margin-bottom: 20px;
-        
-    }
-    #welovehoplinks {
-        margin-top: 0px;
-        text-align: center;
-    }
-}
-@media (max-width: 595px) {
-    a.icon-link{
-        top: 60px;
-    }
-    #instagram {
-        left: 20px;
-    }
-    #youtube {
-        left: 61px;
-    }
-    #spotify {
-        left: 108px;
-    }
-    #apple {
-        left: 151.25px;
-    }
-    #bandcamp {
-        left: 189.25px;
-    }
-}
-@media (max-width: 376px){
-    a.icon-link {
-        top: 110px;
-    }
-}
+
 .albumtitle {
     font-family: "Sen", sans-serif;
     font-optical-sizing: auto;
@@ -199,6 +150,7 @@ a.icon-link:hover{
     width: 90%;
     margin: auto;
 }
+
 #show-table tr {
     border-bottom: 1px solid black;
     
@@ -302,3 +254,76 @@ a.icon-link:hover{
     color:rgb(255, 0, 76)
 }
 
+@media (max-width: 770px) {
+    .top {
+        background-image: url(images/hop1square.JPG);
+    }
+    .link-container{
+        flex-direction: column;
+        
+    }
+    .half{
+        width: 100%;
+    }
+    .link-container img {
+        max-width: 100%;
+        height: auto;
+        /* object-fit: contain; */
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        
+    }
+    #welovehoplinks {
+        margin-top: 0px;
+        text-align: center;
+    }
+}
+@media (max-width: 595px) {
+    a.icon-link{
+        top: 60px;
+    }
+    #instagram {
+        left: 20px;
+    }
+    #youtube {
+        left: 61px;
+    }
+    #spotify {
+        left: 108px;
+    }
+    #apple {
+        left: 151.25px;
+    }
+    #bandcamp {
+        left: 189.25px;
+    }
+}
+@media (max-width: 500px){
+    table, tbody, td, tr{
+        display: block;
+        justify-content: center;
+    }
+    
+    #show-table td.date {
+        text-align: center;
+        padding-bottom: 0px;
+    }
+    #show-table td.city {
+        text-align: center;
+        padding: 0px;
+    }
+    #show-table td.tickets {
+        text-align: center;
+    }
+    .ticket-button{
+        width: 90%;
+    }
+
+    
+}
+@media (max-width: 376px){
+    a.icon-link {
+        top: 110px;
+    }
+}
