@@ -299,7 +299,7 @@ a.icon-link:hover{
         left: 189.25px;
     }
 }
-@media (max-width: 500px){
+@media (max-width: 580px){
     table, tbody, td, tr{
         display: block;
         justify-content: center;
