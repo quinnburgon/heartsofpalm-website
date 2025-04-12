@@ -254,6 +254,75 @@ a.icon-link:hover{
     color:rgb(255, 0, 76)
 }
 
+
+/* shows */
+#shows-window{
+    background-image: url(images/dummerhouse.jpg);
+    background-size: cover;
+    background-position: center center
+}
+.top3{
+    background-color: black;
+}
+.upcoming-shows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    min-height: auto;
+
+}
+.show-header{
+    font-family: "Sen", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    text-align: left;
+    color: black;
+    padding: 10px 17px;
+    background-color: white;
+    margin-bottom: 20px;
+    
+}
+.poster-link {
+    width: 50%;
+}
+.poster-link img {
+    width: 100%;
+    height: auto;
+    object-fit: contain; 
+    transition: transform 0.3s ease;
+}
+.upcoming-shows img:hover {
+    transform: scale(0.97);
+}
+
+.show-archive{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    min-height: auto;
+
+}
+.poster-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.poster-grid img{
+    width: calc(33.333% - 10px);
+    height: auto;
+    object-fit: contain;
+    padding-bottom: 20px;
+}
 @media (max-width: 770px) {
     .top {
         background-image: url(images/hop1square.JPG);
@@ -298,6 +367,10 @@ a.icon-link:hover{
     #bandcamp {
         left: 189.25px;
     }
+
+    .top3{
+        height: 100px;
+    }
 }
 @media (max-width: 580px){
     table, tbody, td, tr{
@@ -325,5 +398,8 @@ a.icon-link:hover{
 @media (max-width: 376px){
     a.icon-link {
         top: 110px;
+    }
+    .top3{
+        height: 150px;
     }
 }
