@@ -14,19 +14,48 @@
     </head>
 
     <body id="contact">
+        <div class="top4">
+            <h1 id='title'><a href="./">HEARTS OF PALM</a></h1>
+            <a href="https://www.instagram.com/heartsofpalmband?igsh=MXUxeXhpaXF2aXhybQ%3D%3D&utm_source=qr" 
+            target="_blank" class="icon-link" id="instagram">
+                <i class="fab fa-instagram" style="font-size: 24px;"></i> <!-- Font Awesome Instagram Icon -->
+            </a>
+            <a href="https://open.spotify.com/artist/5ENaLrcejcU7PPqPEu1j1Q?si=hKNM0IwCQwGoQbm-GyrjBg" 
+            target="_blank" class="icon-link" id="spotify">
+                <i class="fab fa-spotify" style="font-size: 24px;"></i> <!-- Font Awesome Spotify Icon -->
+            </a>
+            <a href="https://music.apple.com/ca/artist/hearts-of-palm/1753771960" 
+            target="_blank" class="icon-link" id="apple">
+                <i class="fab fa-itunes-note" style="font-size: 24px;"></i> <!-- Font Awesome Apple Music Icon -->
+            </a>
+            <a href="https://youtube.com/@heartsofpalmmtl?si=8ECIyE9Sc-xosG-G" 
+            target="_blank" class="icon-link" id="youtube">
+                <i class="fab fa-youtube" style="font-size: 24px;"></i> <!-- Font Awesome youtube Icon -->
+            </a>
+            <a href="https://heartsofpalmband.bandcamp.com/" 
+            target="_blank" class="icon-link" id="bandcamp">
+                <i class="fab fa-bandcamp" style="font-size: 24px;"></i> <!-- Font Awesome bandcamp Icon -->
+            </a>
+        </div>
+
         <div id="contactdiv">
-            <form id="contact-form">
+            <form action="#" id="contact-form">
+                <h1>CONTACT US</h1>
                 <label for="name">Name</label>
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="name" name="name">
+                <div class="error-text">*Name can't be blank*</div>
 
                 <label for="email">Email address</label>
-                <input for="email" id="email" name="email" required>
+                <input for="email" id="email" name="email">
+                <div class="error-text">*Email can't be blank*</div>
                 
                 <label for="subject">Subject</label>
-                <input type="text" id="subject" name="subject" required>
+                <input type="text" id="subject" name="subject">
+                <div class="error-text">*Subject can't be blank*</div>
 
                 <label for="message">Message</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
+                <textarea id="message" name="message" rows="4"></textarea>
+                <div class="error-text">*Message can't be blank*</div>
 
                 <button type="submit">Send</button>
 
