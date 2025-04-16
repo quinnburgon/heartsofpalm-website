@@ -318,7 +318,7 @@ a.icon-link:hover{
     gap: 10px;
 }
 .poster-grid img{
-    width: calc(33.333% - 10px);
+    width: calc(50% - 10px);
     height: auto;
     object-fit: contain;
     padding-bottom: 20px;
