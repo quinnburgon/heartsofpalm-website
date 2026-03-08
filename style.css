@@ -300,13 +300,22 @@ a.icon-link:hover{
 
 /* shows */ 
 #shows-window{ 
-    background-image: url(images/dummerhouse.jpg); 
+    background-image: url(images/sky.JPG); 
     background-size: cover; 
     background-position: center center 
 } 
 .top3{
     background-color: black; 
 } 
+.top3 #title{
+    color: #473d37;
+}
+.top3 .icon-link{
+    color: #473d37;
+}
+.top3 .page-links {
+    color: #473d37;
+}
 .upcoming-shows { 
     display: flex; 
     flex-direction: column; 
@@ -325,9 +334,9 @@ a.icon-link:hover{
     font-style: normal; 
     font-size: 8vw; 
     text-align: left; 
-    color: black; 
+    color: #473d37;
     padding: 10px 17px; 
-    background-color: white; 
+    /* background-color: white;  */
     margin-bottom: 20px; 
 } 
 .poster-link { 
@@ -479,9 +488,9 @@ a.icon-link:hover{
         left: 20px;
     }
 
-    .top3{
+    /* .top3{
         height: 125px;
-    }
+    } */
 
     #contact-form{
         margin: 20% 20%;
@@ -517,7 +526,7 @@ a.icon-link:hover{
     .page-links {
         top: 140px;
     }
-    .top3{
+    /* .top3{
         height: 175px;
-    }
+    } */
 }
