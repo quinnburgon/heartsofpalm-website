@@ -5,7 +5,8 @@
 body {
     padding: 0;
     /* background-color: rgb(255, 204, 221); */
-    background-color: #15382b;
+    /* background-color: #15382b; */
+    background-color: #131313;
     max-width: 100vw; /* Prevents overflow beyond the viewport width */
     
     box-sizing: border-box;
@@ -22,6 +23,12 @@ body {
     width: 100%;
 }
 .top img {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    position: relative;
+}
+.top video {
     width: 100%;
     height: auto;
     display: inline-block;
@@ -45,7 +52,8 @@ body {
     font-style: normal;
     font-size: 40px;
     text-align: left;
-    color: white;
+    /* color: #ac91ac; */
+    color: #e8d2c0;
     
     
     padding: 0px 17px 10px 0px; 
@@ -61,7 +69,7 @@ body {
     font-style: normal;
     font-size: 20px;
     text-align: right;
-    color: white;
+    color: #e8d2c0;
     max-width: fit-content;
     margin: 0;
     transition: opacity 0.3s ease;
@@ -80,7 +88,7 @@ a.icon-link{
     margin: 0;
     padding: 0;
     top: 20px; 
-    color: rgb(255, 255, 255); 
+    color: #e8d2c0;
     transition: opacity 0.3s ease;
     max-width: fit-content;
 }
@@ -259,7 +267,8 @@ a.icon-link:hover{
 }
 .streaming img {
     width: 100%;
-    height: auto;
+    max-width: 1024px;
+    aspect-ratio: 1 / 1;
     object-fit: contain;
     transition: transform 0.3s ease;
 }
@@ -277,7 +286,7 @@ a.icon-link:hover{
     text-align: center;
 }
 .contact h3 {
-    color: rgb(255, 204, 221);
+    color: #e8d2c0;
     text-align: center;
 }
 .contact a {
@@ -285,7 +294,7 @@ a.icon-link:hover{
     color: inherit;
 }
 .contact a:hover {   
-    color:rgb(255, 0, 76)
+    color:#ac91ac;
 }
 
 
