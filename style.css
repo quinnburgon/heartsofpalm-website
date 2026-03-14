@@ -260,7 +260,6 @@ a.icon-link:hover{
     justify-content: flex-start;
     align-items: flex-start;
     max-width: 90%;
-    padding: 20px 0px;
     box-sizing: border-box;
     min-height: auto;
 
@@ -270,6 +269,7 @@ a.icon-link:hover{
     max-width: 1024px;
     aspect-ratio: 1 / 1;
     object-fit: contain;
+    margin-bottom: 20px;
     transition: transform 0.3s ease;
 }
 .streaming img:hover {
