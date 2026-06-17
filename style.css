@@ -186,37 +186,43 @@ a.icon-link:hover{
 .shows {
     padding: 20px 0px;
 }
-#show-table {
+.show-table {
     border-collapse: collapse;
     width: 90%;
     margin: auto;
 }
 
-#show-table tr {
+.show-table tr {
     border-bottom: 1px solid white;
     
 }
-
-#show-table tr:first-child {
+.show-table tr:first-child {
     border-top: 1px solid white;
 }
-#show-table td {
+#show-table-2 tr {
+    border-color: #473d37;
+}
+
+.show-table td {
     font-family: Garamond, sans-serif;
     font-size: 17px;
     color: white;
 }
-#show-table td.date {
+.show-table td.date {
     text-align: left;
     padding: 10px 10px;
 }
-#show-table td.city {
+.show-table td.city {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-#show-table td.tickets {
+.show-table td.tickets {
     text-align: right;
     padding: 10px 10px;
+}
+#show-table-2 td {
+    color: #473d37;
 }
 
 .ticket-button {
@@ -306,6 +312,7 @@ a.icon-link:hover{
 } 
 .top3{
     background-color: black; 
+    margin-bottom: 160px;
 } 
 .top3 #title{
     color: #473d37;
@@ -502,15 +509,15 @@ a.icon-link:hover{
         justify-content: center;
     }
     
-    #show-table td.date {
+    .show-table td.date {
         text-align: center;
         padding-bottom: 0px;
     }
-    #show-table td.city {
+    .show-table td.city {
         text-align: center;
         padding: 0px;
     }
-    #show-table td.tickets {
+    .show-table td.tickets {
         text-align: center;
     }
     .ticket-button{
