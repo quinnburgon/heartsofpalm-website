@@ -200,7 +200,7 @@ a.icon-link:hover{
     border-top: 1px solid white;
 }
 #show-table-2 tr {
-    border-color: #473d37;
+    border-color: white;
 }
 
 .show-table td {
@@ -222,7 +222,7 @@ a.icon-link:hover{
     padding: 10px 10px;
 }
 #show-table-2 td {
-    color: #473d37;
+    color: white;
 }
 
 .ticket-button {
@@ -315,13 +315,13 @@ a.icon-link:hover{
     margin-bottom: 160px;
 } 
 .top3 #title{
-    color: #473d37;
+    color: white;
 }
 .top3 .icon-link{
-    color: #473d37;
+    color: white;
 }
 .top3 .page-links {
-    color: #473d37;
+    color: white;
 }
 .upcoming-shows { 
     display: flex; 
@@ -341,7 +341,7 @@ a.icon-link:hover{
     font-style: normal; 
     font-size: 8vw; 
     text-align: left; 
-    color: #473d37;
+    color: white;
     padding: 10px 17px; 
     /* background-color: white;  */
     margin-bottom: 20px; 
